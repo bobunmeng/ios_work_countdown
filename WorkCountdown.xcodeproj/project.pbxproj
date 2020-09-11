@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A494FDA250C327D00F3F027 /* WorkCountDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A494FD9250C327D00F3F027 /* WorkCountDataStore.swift */; };
 		6AFFB5B024FF891900B34E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5AF24FF891900B34E7B /* AppDelegate.swift */; };
 		6AFFB5B224FF891900B34E7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5B124FF891900B34E7B /* SceneDelegate.swift */; };
-		6AFFB5B424FF891900B34E7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5B324FF891900B34E7B /* ViewController.swift */; };
 		6AFFB5B724FF891900B34E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFB5B524FF891900B34E7B /* Main.storyboard */; };
 		6AFFB5B924FF891B00B34E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFB5B824FF891B00B34E7B /* Assets.xcassets */; };
 		6AFFB5BC24FF891B00B34E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFB5BA24FF891B00B34E7B /* LaunchScreen.storyboard */; };
+		6AFFB5C724FF894D00B34E7B /* WorkCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5C624FF894D00B34E7B /* WorkCount.swift */; };
+		6AFFB5CA24FF89B000B34E7B /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5C924FF89B000B34E7B /* Date+Extension.swift */; };
+		6AFFB5CC24FF89EC00B34E7B /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5CB24FF89EC00B34E7B /* CommonFunctions.swift */; };
+		6AFFB5D024FF8C0400B34E7B /* WorkCountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5CF24FF8C0400B34E7B /* WorkCountDownViewController.swift */; };
+		6AFFB5D224FF8FF900B34E7B /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5D124FF8FF900B34E7B /* TimeModel.swift */; };
+		6AFFB5D424FF996100B34E7B /* WorkCountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5D324FF996100B34E7B /* WorkCountViewModel.swift */; };
+		6AFFB5D724FF9D5E00B34E7B /* WorkCountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5D624FF9D5E00B34E7B /* WorkCountTableViewCell.swift */; };
+		6AFFB5D924FF9E0000B34E7B /* WorkCountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AFFB5D824FF9E0000B34E7B /* WorkCountTableViewCell.xib */; };
+		6AFFB5DB24FF9F0F00B34E7B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFFB5DA24FF9F0F00B34E7B /* Constant.swift */; };
+		F515D45744D37EA66F4B556B /* Pods_WorkCountdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3990D244FECCA62B2BC90B1E /* Pods_WorkCountdown.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3990D244FECCA62B2BC90B1E /* Pods_WorkCountdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorkCountdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A494FD9250C327D00F3F027 /* WorkCountDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCountDataStore.swift; sourceTree = "<group>"; };
 		6AFFB5AC24FF891900B34E7B /* WorkCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AFFB5AF24FF891900B34E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AFFB5B124FF891900B34E7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6AFFB5B324FF891900B34E7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6AFFB5B624FF891900B34E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6AFFB5B824FF891B00B34E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AFFB5BB24FF891B00B34E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AFFB5BD24FF891B00B34E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AFFB5C624FF894D00B34E7B /* WorkCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCount.swift; sourceTree = "<group>"; };
+		6AFFB5C924FF89B000B34E7B /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		6AFFB5CB24FF89EC00B34E7B /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		6AFFB5CF24FF8C0400B34E7B /* WorkCountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCountDownViewController.swift; sourceTree = "<group>"; };
+		6AFFB5D124FF8FF900B34E7B /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		6AFFB5D324FF996100B34E7B /* WorkCountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCountViewModel.swift; sourceTree = "<group>"; };
+		6AFFB5D624FF9D5E00B34E7B /* WorkCountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCountTableViewCell.swift; sourceTree = "<group>"; };
+		6AFFB5D824FF9E0000B34E7B /* WorkCountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkCountTableViewCell.xib; sourceTree = "<group>"; };
+		6AFFB5DA24FF9F0F00B34E7B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		6AFFB5DC24FFD9C600B34E7B /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFFB5E024FFD9CA00B34E7B /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA81C0DA123B12EE76C6D0A9 /* Pods-WorkCountdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkCountdown.release.xcconfig"; path = "Target Support Files/Pods-WorkCountdown/Pods-WorkCountdown.release.xcconfig"; sourceTree = "<group>"; };
+		CC7107BC8D86CB62DB59B031 /* Pods-WorkCountdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkCountdown.debug.xcconfig"; path = "Target Support Files/Pods-WorkCountdown/Pods-WorkCountdown.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F515D45744D37EA66F4B556B /* Pods_WorkCountdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		271FE5834E52EBE0C71AC81E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFFB5E024FFD9CA00B34E7B /* RealmSwift.framework */,
+				6AFFB5DC24FFD9C600B34E7B /* Realm.framework */,
+				3990D244FECCA62B2BC90B1E /* Pods_WorkCountdown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44991000C6FA9AFF07B07411 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC7107BC8D86CB62DB59B031 /* Pods-WorkCountdown.debug.xcconfig */,
+				AA81C0DA123B12EE76C6D0A9 /* Pods-WorkCountdown.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A494FD8250C325E00F3F027 /* Datastore */ = {
+			isa = PBXGroup;
+			children = (
+				6A494FD9250C327D00F3F027 /* WorkCountDataStore.swift */,
+			);
+			path = Datastore;
+			sourceTree = "<group>";
+		};
 		6AFFB5A324FF891900B34E7B = {
 			isa = PBXGroup;
 			children = (
 				6AFFB5AE24FF891900B34E7B /* WorkCountdown */,
 				6AFFB5AD24FF891900B34E7B /* Products */,
+				44991000C6FA9AFF07B07411 /* Pods */,
+				271FE5834E52EBE0C71AC81E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +110,64 @@
 		6AFFB5AE24FF891900B34E7B /* WorkCountdown */ = {
 			isa = PBXGroup;
 			children = (
+				6AFFB5C824FF89A900B34E7B /* Common */,
+				6AFFB5C524FF894000B34E7B /* Controller */,
+				6AFFB5C424FF893500B34E7B /* ViewModel */,
+				6AFFB5C324FF892900B34E7B /* Model */,
+				6A494FD8250C325E00F3F027 /* Datastore */,
 				6AFFB5AF24FF891900B34E7B /* AppDelegate.swift */,
 				6AFFB5B124FF891900B34E7B /* SceneDelegate.swift */,
-				6AFFB5B324FF891900B34E7B /* ViewController.swift */,
 				6AFFB5B524FF891900B34E7B /* Main.storyboard */,
 				6AFFB5B824FF891B00B34E7B /* Assets.xcassets */,
 				6AFFB5BA24FF891B00B34E7B /* LaunchScreen.storyboard */,
 				6AFFB5BD24FF891B00B34E7B /* Info.plist */,
 			);
 			path = WorkCountdown;
+			sourceTree = "<group>";
+		};
+		6AFFB5C324FF892900B34E7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AFFB5C624FF894D00B34E7B /* WorkCount.swift */,
+				6AFFB5D124FF8FF900B34E7B /* TimeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AFFB5C424FF893500B34E7B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6AFFB5D324FF996100B34E7B /* WorkCountViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6AFFB5C524FF894000B34E7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6AFFB5D524FF9D4800B34E7B /* Cell */,
+				6AFFB5CF24FF8C0400B34E7B /* WorkCountDownViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6AFFB5C824FF89A900B34E7B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6AFFB5C924FF89B000B34E7B /* Date+Extension.swift */,
+				6AFFB5CB24FF89EC00B34E7B /* CommonFunctions.swift */,
+				6AFFB5DA24FF9F0F00B34E7B /* Constant.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6AFFB5D524FF9D4800B34E7B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6AFFB5D624FF9D5E00B34E7B /* WorkCountTableViewCell.swift */,
+				6AFFB5D824FF9E0000B34E7B /* WorkCountTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AFFB5C024FF891B00B34E7B /* Build configuration list for PBXNativeTarget "WorkCountdown" */;
 			buildPhases = (
+				146B97B07E77ACC650458DB0 /* [CP] Check Pods Manifest.lock */,
 				6AFFB5A824FF891900B34E7B /* Sources */,
 				6AFFB5A924FF891900B34E7B /* Frameworks */,
 				6AFFB5AA24FF891900B34E7B /* Resources */,
+				823FFB561D43C41B7537E007 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +232,70 @@
 			files = (
 				6AFFB5BC24FF891B00B34E7B /* LaunchScreen.storyboard in Resources */,
 				6AFFB5B924FF891B00B34E7B /* Assets.xcassets in Resources */,
+				6AFFB5D924FF9E0000B34E7B /* WorkCountTableViewCell.xib in Resources */,
 				6AFFB5B724FF891900B34E7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		146B97B07E77ACC650458DB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorkCountdown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		823FFB561D43C41B7537E007 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkCountdown/Pods-WorkCountdown-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorkCountdown/Pods-WorkCountdown-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorkCountdown/Pods-WorkCountdown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6AFFB5A824FF891900B34E7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AFFB5B424FF891900B34E7B /* ViewController.swift in Sources */,
+				6AFFB5D724FF9D5E00B34E7B /* WorkCountTableViewCell.swift in Sources */,
+				6AFFB5CC24FF89EC00B34E7B /* CommonFunctions.swift in Sources */,
+				6AFFB5CA24FF89B000B34E7B /* Date+Extension.swift in Sources */,
+				6A494FDA250C327D00F3F027 /* WorkCountDataStore.swift in Sources */,
 				6AFFB5B024FF891900B34E7B /* AppDelegate.swift in Sources */,
+				6AFFB5D424FF996100B34E7B /* WorkCountViewModel.swift in Sources */,
+				6AFFB5D224FF8FF900B34E7B /* TimeModel.swift in Sources */,
+				6AFFB5C724FF894D00B34E7B /* WorkCount.swift in Sources */,
+				6AFFB5DB24FF9F0F00B34E7B /* Constant.swift in Sources */,
+				6AFFB5D024FF8C0400B34E7B /* WorkCountDownViewController.swift in Sources */,
 				6AFFB5B224FF891900B34E7B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +438,7 @@
 		};
 		6AFFB5C124FF891B00B34E7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7107BC8D86CB62DB59B031 /* Pods-WorkCountdown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +457,7 @@
 		};
 		6AFFB5C224FF891B00B34E7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA81C0DA123B12EE76C6D0A9 /* Pods-WorkCountdown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
